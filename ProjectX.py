@@ -9,7 +9,7 @@ print('Table name   : Startups \n\n')
 
 
 #establishing connection to the required mysql database
-mycon = sqltor.Connect(host = 'localhost', user = 'root', passwd = 'Ajmer12', database = 'project')
+mycon = sqltor.Connect(host = 'localhost', user = 'root', passwd = '****', database = 'project')
 cursor = mycon.cursor()
 if mycon.is_connected():
     print('Connection Successful!!')
